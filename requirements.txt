@@ -1,0 +1,5 @@
+Flask
+python-dotenv
+google-generativeai
+Markdown
+html5lib

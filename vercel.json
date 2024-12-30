@@ -1,0 +1,29 @@
+{
+    "version": 2,
+    "builds": [
+      {
+        "src": "api/app.py",
+        "use": "@vercel/python"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/api/(.*)",
+        "methods": ["POST"],
+        "dest": "api/app.py"
+      },
+      {
+        "src": "/api/(.*)",
+        "status": 403
+      },
+      {
+        "src": "/(.*\\.py)",
+        "status": 404
+      },
+      { 
+        "src": "/(.*)", 
+        "dest": "/public/index.html" 
+      }
+    ]
+  }
+  
