@@ -14,39 +14,32 @@ Free DIY-ChatAI is an **easy** to configure AI chatbot templates, allowing you t
 
 **1. Clone repo**
 ```bash
-  git clone https://github.com/SamuelVanWilson/Free-DIY-ChatAI.git
+git clone https://github.com/SamuelVanWilson/Free-DIY-ChatAI.git
 ```
 
 **2. Create a Virtual environment (venv)**
 ```bash
-  python -m venv venv
+python -m venv venv
 ```
 
 **3. Activate the virtual environment**
-
-In windows:
 ```bash
-  venv\Scripts\activate
-```
-
-In macOS/Linux:
-```bash
-  source venv/Scripts/activate
+source venv/Scripts/activate
 ```
 
 **4. Install dependencies**
 ```bash
-  pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 
 **5. Configure environment variables**
 ```bash
-  API_KEY="YOUR_API_KEY"
+API_KEY="YOUR_API_KEY"
 ```
 
 **6. Run the application**
 ```bash
-  python api/app.py
+python api/app.py
 ```
 ## Feedback
 
