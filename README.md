@@ -2,6 +2,11 @@
 # Free DIY-ChatAI
 
 Free DIY-ChatAI is an **easy** to configure AI chatbot templates, allowing you to create chatbots according to your wishes locally on your computer
+
+## Features
+
+This is an example of a website created using my chatbot template -> https://ambathron-chat-ai.vercel.app/
+
 ## Features
 
 - Easy to configure (UI, models, etc.)
